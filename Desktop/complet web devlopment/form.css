@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title> 
+    <style>   
+    body{   
+        background-image:url(https://th.bing.com/th/id/OIP.B30vSxgX3sZJsojazm0dEAHaEo?pid=ImgDet&rs=1);
+        background-repeat: repeat;
+        text-align: center;
+        font-style: italic;
+        border-style: solid;
+        border-width: 7px;
+    }
+    h4{    
+        text-align: center;
+    }
+    details{   
+text-align: center;
+ 
+    }
+    </style>
+</head>
+<body>
+    <h1>this is  HTML form for user</h1>
+  <form action="backendphp"  >
+<h2>
+    <div>
+  name:<input type=text name="my name"> 
+</div>
+<br>
+<div>
+  roll:<input type="text" name="my roll">
+</div>
+<br>
+<div>
+  email:<input type="email" name="my email">
+     </div>
+     <br>
+    <div>
+        <input type="date" name="" id="">
+    </div>
+    <br>
+    <div> 
+        fathername:<input type ="text"  name=" myfathername">
+    </div>
+    <br>
+    <div>
+    bonuc:<input type="number" name ="my bonuc">
+</div>
+<br>
+<div> 
+    are you eligibility?:<input type="checkbox" name="myeligibility">
+</div>
+<br>
+<div>
+    gender:male<input type="radio" name="my gender"> female<input type="radio" name="my gender">
+</div>
+<br>
+    <h4 >  text area</h4>
+    <textarea name="text"  cols="40" rows="10"></textarea>
+
+<div>
+    <input type="submit" value="Submit now">
+    <input type="reset" value="Reset now">  
+    </div>   
+</h2> 
+<h2>
+     <details>
+     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nesciunt esse eligendi dicta optio repellendus mollitia, quaerat consequuntur laudantium magni?
+        <summary>  DETails</summary>
+     </details>
+     </h2>
+</body>
+</html>

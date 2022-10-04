@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,inital-scsle=1.0">
+ <meta http-equiv="X-UA-compatible"content="ie=edge">
+ <title>media queries with css</title>
+ <style>  
+.contaner{  
+  display: grid;
+  grid-gap: 2px;
+  grid-template-areas: 
+  " navbar navbar navbar navbar"
+  " section section section aside"
+  " footer footer footer footer";
+
+}
+.box{  
+  border: 2px solid black;
+  padding:10px;
+  background-color: bisque;
+}
+nav{  
+  grid-area: navbar;
+}
+section{ 
+  grid-area: section;
+}
+aside{  
+  grid-area: aside;
+}
+footer{ 
+  grid-area: footer;
+}
+/*.item{ 
+  background-color:orangered;
+  border:3px solid black;
+  padding: 12px 23px;
+}*/
+
+@media only screen and ( max-width:360px){  
+  body{  
+    background-color: blue;
+  }
+    aside{  
+      display:none;
+     }
+
+}
+@media only screen and ( min-width:360px) and (max-width:500px){  
+  body{  
+    background-color: rgb(87, 221, 212);
+  }
+  .contaner{ 
+  grid-template-areas: 
+  " navbar navbar navbar navbar"
+  " section section section section"
+  " aside aside aside aside"
+  " footer footer footer footer";
+  }
+
+}
+@media only screen and ( min-width:500px)  and ( max-width: 700px){  
+  body{  
+    background-color: rgb(204, 222, 42);
+  }
+  .contaner{ 
+  grid-template-areas: 
+  " navbar navbar navbar navbar"
+  " section section section section"
+  " aside aside aside aside"
+  " footer footer footer footer";
+  }
+}
+@media ( min-width:700px){  
+  body{
+    background-color: blueviolet;
+
+}
+
+}
+
+</style>
+ </head>
+ <body>
+    <div class="contaner">
+<nav  class="box">  
+  home server menu contract
+</nav>
+<section  class="box">  
+  <h2>   this is css class</h2>
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias tempore reprehenderit quos. Rerum doloremque quas cupiditate nihil ex distinctio tempore est expedita culpa, numquam quaerat repudiandae hic architecto magnam maiores alias voluptatem fuga explicabo porro ducimus exercitationem sit reprehenderit, labore quibusdam. Exercitationem, adipisci? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ducimus culpa excepturi! Distinctio, exercitationem quibusdam velit dolorem consectetur nulla, aliquid magnam numquam fugiat aspernatur eligendi maiores iure ex veniam, nihil blanditiis. Pariatur quod ratione repellendus velit ducimus explicabo rem incidunt?</p>
+</section>
+<aside   class="box"> 
+  <h1> home about tag</h1>
+  <p1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, cupiditate magni eaque, aliquam perferendis nihil, voluptatum sed nesciunt quis exercitationem aliquid iure suscipit cum delectus sunt dolorem animi mollitia. Dolor velit dolorum et fugiat porro tempore aspernatur eaque autem in sint, aliquam officia nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi soluta nam inventore voluptatem non qui at eveniet voluptatibus enim repellat iste architecto impedit ut, dicta quas beatae quam velit ipsum earum rem ratione cupiditate consequuntur. Saepe odio sunt optio voluptate accusamus accusantium deserunt delectus.</p1>
+</aside>
+</div>
+<footer class="box">
+  <h2>  this is css hindi class  </h2> 
+  <p1> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti error veritatis earum consequatur dolorum voluptate, tempore reiciendis cupiditate dolore quae omnis, iure quaerat! Obcaecati aperiam reiciendis rerum aut quam. Hic, illum ab dolore omnis qui itaque? Reiciendis dolores quibusdam repellat voluptate quaerat nobis ex non neque dolorem libero animi ad eius itaque molestias, explicabo in, iusto, ducimus aperiam aliquid inventore totam. Modi eius eligendi quasi, architecto ducimus repellendus, deleniti numquam labore ab illum excepturi sint ullam odio saepe beatae aut praesentium veritatis magni aspernatur cupiditate dolorem repellat. Quidem, reiciendis!</p1>
+  </footer>
+ </body>
+ </html>

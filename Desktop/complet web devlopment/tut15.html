@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>navigation</title>
+        <style>
+            .navbar ul {
+                display: flex;
+                list-style: none;
+
+                /*   overflow: auto;
+             */
+            }
+
+            .navbar li {
+                /* float:left;
+               */
+
+            }
+
+            .navbar,
+            a {
+                display: flex;
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+            }
+
+            .para {
+                display: flex;
+                padding: 10px 0px;
+                margin: 20px 20px 40px 40px;
+                position: absolute;
+                top: 10px;
+                right: 0px;
+                color: black;
+
+            }
+
+            .navbar input {
+                border-radius: 20px;
+            }
+
+            a:hover {
+                color: blueviolet;
+            }
+
+            .contaner{
+                background-image:url(https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828732_960_720.jpg);
+            background-size: 1000px;
+            height: 800px;
+            }
+
+            .data {
+                border: 3px solid white;
+                width: 500px;
+                height: 530px;
+                padding-top: 0px;
+                margin-top: 900px;
+                margin-left: 200px;
+                position: absolute;
+                top: 160px;
+                left: 90px;
+
+            }
+
+            .data,
+            li {
+                text-align: center;
+                color: white;
+                font-size: 30px;
+                font-style: bold;
+                width: 300;
+
+            }
+
+            .data,
+            input {
+                color: rgb(120, 57, 3);
+                border-radius: 6px;
+                margin: 10px;
+                padding: 6px;
+                font-style: bold;
+            }
+
+            #gym,
+            img {
+                position: absolute;
+                width: 10px;
+                top: 25px;
+                left: 0px;
+                filter: invert(100%);
+            }
+
+            #lorem {
+                width: 500%px;
+                position: absolute;
+                top: 760px;
+                left: 10px;
+                font-size: 20px;
+                font-style: oblique;
+                color: skyblue;
+            }
+
+            #lorem:hover {
+                color: white
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="contaner">
+
+            <header >
+            </div>
+            <div class="navbar">
+                <ul>
+                    <div>
+                        <li><a href="$">HOME </a></li>
+                    </div>
+                    <div>
+                        <li><a href="$">CONTRACT </a></li>
+                    </div>
+                    <div>
+                        <li><a href="$">NOTES </a></li>
+                    </div>
+                    <div>
+                        <li><a href="$">HELP </a></li>
+                    </div>
+                    <div>
+                        <li><a href="$">ABOUTUS</a></li>
+                    </div>
+                    <div>
+                        <li><a href="$">LOGIN </a></li>
+                    </div>
+                    <div id="lorem">
+                        <div>
+                            <details>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolor neque
+                                officia adipisci optio animi? Ad optio porro laborum,
+                                ut placeat,
+                                cumque iste error,
+                                facere vero quam fugit iure harum eligendi. Harum saepe repellendus reiciendis illum
+                                molestiae aut placeat ratione.
+                                <summary>about Fitness </summary>
+                            </details>
+                            <details>8755515170 <summary>contract number </summary>
+                            </details>
+                            <details>meerut,
+                                NH58 <summary>gym address </summary>
+                            </details>
+                            <details>open:5:00AM CLOSE:10PM <summary>timeing </summary>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="para">
+                        <form action="backend.php">
+                            <input type="text" id="search" name="search " placeholder="search bar">
+                            <button id=" src"> search </button>
+                    </div>
+                </div>
+                    <div id="gym wala"><img
+                            scr="https://cdn.pixabay.com/photo/2013/07/12/13/18/bodybuilder-146791_960_720.png" alt="">
+                    </div>
+            </div>
+            </ul>
+            </div>
+        </header>
+        <div class="data">
+            <form action=" backend.php">
+                <h3>Preet Fitness Webpage</h3>
+                <br>
+                name:<input type="name" id="search1" name="name " placeholder="type name">
+                <br>
+                address:<input type="address" id="search2" name="address" placeholder=" type address">
+                <br>
+                contract:<input type="number" id="search3" name="contract" placeholder=" type contract number">
+                <br>
+                gmail: <input type="email" id="search4" name="gmail" placeholder="type gmail">
+                <br>
+                weight: <input type="number" id="search5" name="my weight " placeholder="type body weight">
+                <br>
+                height <input type="number" id="search6" name="my height" placeholder="type height">
+                <br>
+                gender:male<input type="radio" id="search7" name="my gender " placeholder="type gender"> female:<input
+                    type="radio" id="search7" name="my gender " placeholder="type gender">
+                <br>
+                <button id="sum"> </button>
+            </div>
+        <div id="gym"><img src="https://cdn.pixabay.com/photo/2020/05/04/01/37/dumbbell-5127417_960_720.png" alt="">
+        </div>
+    </div>
+    </body>
+
+    </html>

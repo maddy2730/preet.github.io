@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,inital-scsle=1.0">
+ <meta http-equiv="X-UA-compatible"content="ie=edge">
+ <title>document</title>
+ <style>  
+ body{   
+    background-color: black;
+    color: white;
+    background:url("https://images.unsplash.com/photo-1657879005446-fd4563beddb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" )no-repeat center center/cover;
+
+
+ } 
+section{   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 220px;
+    padding-top:10px;
+}
+header::before{   
+    content:" ";
+    position:"absolute";
+    top:0;
+    left:0;
+    z-index:-1;
+
+
+
+}
+section::before{   
+   /* content: "this is contant;"*/
+}
+#navigation{
+    display: flex;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18px ;
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{    
+    color:white;
+    text-decoration: none;
+
+}
+li{  
+    padding: 34px;
+ }
+ h3{   
+    font-size: 40px;
+    text-shadow: 8px 8px 7px   black;
+ }
+   div.item{
+    position: absolute;
+    left: 1700px;
+    top:0px;
+    padding: 30px;
+    color: black;
+      }
+input{  
+    border-radius: 40px;
+}
+.para{   
+    text-align: center;
+  /*  align-items: flex-end;*/
+}
+   #new{   
+    width: 150px;
+    height: 45px;
+    border-radius:50px ;
+    color: black;
+align-items: flex-end;
+position:absolute;
+top: 302px;
+right:950px;
+list-style: none;
+
+}
+a:hover{   color: black 
+
+}
+a{ border: 1px solid white;   
+border-radius: 5px;
+padding: 10px;
+}
+a:hover{   
+    background: skyblue;
+}
+</style>
+ </head>
+ <body>
+<header>  
+    <nav id="contaner"> 
+<ul  id="navigation">    
+<form action="backend.php"></form>
+    <!--<li class="first">  Home</li>
+    <li class="first">  Input</li>
+    <li class="first">   Data</li>
+    <li class="first">   About</li>-->
+<li>  <a href="$"> Home</a></li>
+<li>  <a href="$"> Input</a></li>
+<li>  <a href="$"> Data</a></li>
+<li>  <a href="$"> About</a></li>
+</ul>
+<div class="item"  >  
+    <form action="backend.php"></form>
+    <input type="search" placeholder="search bar">
+
+</div>
+<div class="para">  
+    <form action="backend.php">
+        
+    <!--     <button>  learn more</button> -->
+    </div>
+</form>
+</nav>
+</header> 
+
+
+
+<ul  id="new">          
+<li>       <a href="$"> learnmore </a>     </li>
+</ul>
+<section>   
+    <h3>   welcome to preet coding world</h3>
+    <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ducimus eveniet fugiat adipisci id nam dolorem voluptas excepturi distinctio aut, quae officiis vitae explicabo quia accusamus cum quasi reprehenderit magni delectus sit dolore perferendis beatae repellat eligendi? Pariatur, temporibus alias.</p>
+</section>
+<hr>
+ </body>
+ </html>
+
+
+
+
+        

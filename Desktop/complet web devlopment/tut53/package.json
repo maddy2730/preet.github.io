@@ -1,0 +1,21 @@
+{
+  "name": "tut53",
+  "version": "1.0.0",
+  "description": "this is very tuf file of me",
+  "main": "tut53.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awsome"
+  ],
+  "author": "preet",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

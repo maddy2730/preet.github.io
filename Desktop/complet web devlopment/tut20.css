@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+       .item{   
+    text-align: center;
+    background-color: blue;
+    font-size: 70px;
+    display: none;
+}
+@media(max-width:100px){
+    
+    #product-1{ display:block;
+    }
+} 
+@media(max-width:200px)
+and
+( min-width:100px){   
+    #product-2{ display:block;
+    }
+} 
+@media(min-width:200px) and(max-width:300px){
+#product-3{
+    display: block;
+}
+}
+@media
+( min-width:300px)and(max-width:400px){
+#product-4{display: block;
+}
+}
+    </style>
+</head>
+<body>
+        <div class="item" id="product-1">  this is computer  </div>
+        <div class="item" id="product-2">     this is iphone  </div>
+        <div class="item" id="product-3"> this is  smrt phone </div>
+        <div class="item" id="product-4">  this is device </div>
+</body>
+</html> 

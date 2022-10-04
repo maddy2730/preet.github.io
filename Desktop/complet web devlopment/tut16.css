@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display property</title>
+    <style>   
+header{  
+        border: 2px solid green;
+        height:82px;
+        margin: auto;
+        width: 1200px;
+        
+    }
+    .boxs{    
+        width: 1200px;
+        margin: auto;
+    }  
+    img{   
+        width: 85px;
+        margin: auto;
+        display: block;
+
+    }
+   h3{
+        margin-top: 0px;
+        padding: 0px;
+        text-align: center;
+    } 
+    .box{  
+       border:  3px solid  black;
+        margin: 2px;
+        background-color: gray;
+        box-sizing: border-box;
+        display:  inline-block;
+        width: 350px;
+   }
+    </style>
+    </head>
+    <body>
+      <header  class="top">  
+          <img src=" https://cdn.pixabay.com/photo/2020/05/04/01/37/dumbbell-5127417_960_720.png"alt=""" alt="" sizes="" srcset="">
+          <h3>  WELCOME to preet blog</h3>
+        
+      </header>   
+    </div>
+
+</header>
+<div class="boxs">
+    <div class=" box">
+        <h4 class="h">  heading</h4>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae non dolorum libero reprehenderit placeat amet ut hic consequatur qui beatae voluptates aliquam voluptate facilis obcaecati repellendus fugit, a quam. Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae, omnis, earum fuga voluptatibus dolores corrupti, laborum debitis laudantium maiores impedit hic? Consequuntur deleniti dicta minima laboriosam nemo dignissimos totam asperiores autem possimus harum, delectus esse laudantium! Quaerat, pariatur reprehenderit.</p>
+       </div>
+        <div class=" box">
+        <h4  class="h1">  heading</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae non dolorum libero reprehenderit placeat amet ut hic consequatur qui beatae voluptates aliquam voluptate facilis obcaecati repellendus fugit, a quam. Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae, omnis, earum fuga voluptatibus dolores corrupti, laborum debitis laudantium maiores impedit hic? Consequuntur deleniti dicta minima laboriosam nemo dignissimos totam asperiores autem possimus harum, delectus esse laudantium! Quaerat, pariatur reprehenderit.</p>
+        </div>
+            <div class=" box">
+            <h4 class="h2 ">  heading</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae non dolorum libero reprehenderit placeat amet ut hic consequatur qui beatae voluptates aliquam voluptate facilis obcaecati repellendus fugit, a quam. Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vitae, omnis, earum fuga voluptatibus dolores corrupti, laborum debitis laudantium maiores impedit hic? Consequuntur deleniti dicta minima laboriosam nemo dignissimos totam asperiores autem possimus harum, delectus esse laudantium! Quaerat, pariatur reprehende</p>
+    </div>
+    </body>
+</html>

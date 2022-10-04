@@ -1,0 +1,67 @@
+$(document).ready(function () {
+    console.log("i am useing jquery");
+    //  $('p').click();
+    $('p').click(function () {
+        console.log('you click on p', this);
+        //$('p').hide();
+        //   $(this).hide();
+    });
+    //$('p').dblclick(function () {
+    // console.log('you double clicked on p', this);
+    //$('p').hide();
+    //   $(this).hide();
+    // });
+    $('p').on(
+        {
+            click: function () {
+                console.log('thanks for clicking on p', this);
+            },
+            mouseleave: function () {
+                console.log("mouseleave");
+            }
+        });
+        $('#btn').click(function(){
+            $('#lorem').animate({ opacity:0.3}, 1000);
+            $('#lorem').animate({opacity:1}, 1000 );
+            $('#lorem').animate({width:"300px"}, 1000 );
+        });
+    //  $('#btn').click(function () {
+    //     $('#lorem').toggle(2000);
+    // });
+    // $('#lorem').animate({ 
+    //opacity:0.3,
+    //height:"190px",
+    //width:"130px"
+    //  },3000);
+    //$('#lorem').slideToggle(1000);
+    // $('#lorem').slideIn(1000);
+    //$('#lorem').slideUp(1000);
+    //  $('#btn').click(function () {
+    //    $('#lorem').fadeIn(2000);
+    // });
+    //$('#btn').click(function () {
+    //   $('#lorem').fadeOut(2000);
+    // });
+    //$('#lorem').hide(2000, function(){
+    //   console.log('function is hide')
+    //});
+    //$('#lorem').show(2000, function(){
+    //    console.log('function is show')
+    //});
+    //$('p').mouseenter(function () {
+    //   console.log('you enter : ', this);
+    //});
+    //$('p').mouseup(function () {
+    //    console.log('you : ', this);
+    //});
+    //  $('.first').click();
+    //$('#second').click();
+    //$('*').click();
+    //$('p.first').click();
+    //$('p#second').click();
+    //events and type===
+    // mouse event , click dblclick, mouseleave
+    // keyboardevent , keypress , keydown , 
+    //form event  submit ,focus , change 
+    //document /window event load, resize, scroll, unload
+});

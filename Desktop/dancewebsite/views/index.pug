@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        div.logo
+            div.logo-img       
+                img(src="/static/6img.png")
+        ul
+
+            li #[a(href="/")  Menu ]
+            li #[a(href="/")  Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Contract]
+            li #[a(href="/") Help]
+
+            input.src(type="text")
+            button.btn search 
+
+    section#introsection
+        div.int Welcome to Hip-Hop 
+        div.intr  Lets go for dance 
+
+    section#datasection
+        h2 Our-Services 
+        div.card
+            h3 Classic 
+            div.card-box 
+                div.card-img
+                    img(src="/static/1img.png")
+                div.card-content 
+                    p Dance has a very long history in India, and just like religion, it is derived from myths and legends.However, the most credible argument is that
+
+
+        div.card
+            h3 Hip-Hop 
+            div.card-box 
+                div.card-img
+                    img(src="/static/2img.png")
+                div.card-content 
+                    p Indian dance has a variety of styles. Like other different Indian culture, different types of Indian dances also originated in different fields of India
+
+        div.card
+            h3 Group-Dance 
+            div.card-box 
+                div.card-img
+                    img(src="/static/3img.png")
+                div.card-content 
+                    p The classical dances of India have traditionally been held in temples and are regarded as to be forms of worship to the Gods of India, for example, one of dance is known as BHARANATYAM.
+
+        div.card
+            h3 Couple-Dance 
+            div.card-box 
+                div.card-img
+                    img(src="/static/4img.png")
+                div.card-content 
+                    p Tracing back to 1000 BC, Bharatanatyam is a classical dance from the South Indian state of Tamil Nadu. At present, it is mainly practiced by women and 
+
+    footer#footer
+     | Copyright  2022  preet © dance academy.com
+
+    script 
+      include ../static/index.js

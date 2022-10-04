@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,inital-scsle=1.0">
+ <meta http-equiv="X-UA-compatible"content="ie=edge">
+ <title>  atribute  &  nth child </title>
+ </head>
+ <style>   
+.formaction{   
+    border:2px solid tomato;
+    height: 100px;
+}
+input[type= text]{  
+  color: green;
+  border: 3px solid green;
+}
+h1,a[target=blank]{  
+    border: 3px solid red;
+}
+li:nth-child(2n+3){  
+    color: blueviolet;
+    font-size: 60px;
+    
+}
+</style>
+<body>
+    <div id="contaner>"> 
+
+        <h1 > <a href=" http://google.com"  target="_blank">  go to google</a></h1>
+        <form action="backend.php" class="formaction">
+            name:<input type="text" placeholder="type name">
+            bonus:<input type="number" placeholder=" bonus">
+            submit:<input type="submit" value="submit">
+            
+        </form>
+    </div>
+    <ul>  
+
+        <li>    red </li>
+        <li>    hred </li>
+        <li>    mred </li>
+        <li>    cred </li>
+        <li>    ered </li>
+        <li>    dred </li>
+        <li>    fred </li>
+        <li>    cred </li>
+    </ul>
+ </body>
+ </html>

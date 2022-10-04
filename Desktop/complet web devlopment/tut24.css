@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,inital-scsle=1.0">
+ <meta http-equiv="X-UA-compatible"content="ie=edge">
+ <title>document</title>
+
+
+
+ <style>    
+.contaner{   
+    display: flex;
+
+}
+.first{  
+    border: 3px solid black;
+    margin: 10px;
+    width: 500px;
+    padding: 0px;
+flex-direction: row;
+box-shadow: -8px -8px 8px black, -8px -8px orange ;
+background-color: blueviolet;
+
+}
+
+header{  
+      text-align: center;
+      font-size: 40px;
+      font-style: italic;
+      text-shadow:6px 6px 6px gray
+
+}
+
+</style>
+ </head>
+ <body>
+    <header>   <h3>      
+
+        this is coding world 
+        
+    </h3>
+</header>
+        <div class="contaner">
+            <div  class="first">  <h3>   akash</h3>
+                <p>    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos error cumque esse tempore ab nemo nam eligendi, dolore in quas soluta ratione iste veritatis vitae ipsa magni adipisci ipsam voluptatem temporibus eos, sit totam atque iure. Exercitationem quo rerum ipsa explicabo non cum eligendi?</p>
+     </div>
+     <div  class="first"><h3>   preet</h3>
+<p>     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut harum deserunt molestias magnam quaerat reiciendis? Quo enim consequatur dolor ipsa eos modi assumenda consectetur consequuntur sequi amet molestiae qui fuga magnam inventore sed, ad excepturi accusamus hic, nemo sapiente, tenetur quis harum! Distinctio, in?</p>
+</div>
+<div  class="first"><h3>  vishal</h3>
+<p>   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, veritatis? Accusantium aspernatur provident possimus voluptas nemo autem est non consequatur hic eum. Accusantium sequi consequuntur adipisci optio consequatur dolor nemo atque explicabo, tempore voluptatum. Libero laboriosam ipsa architecto explicabo iusto eligendi, ad consequatur hic!</p>
+</div>
+        </div>
+ </body>
+ </html>
+
+
+
+
+        

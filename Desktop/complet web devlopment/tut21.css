@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,inital-scsle=1.0">
+ <meta http-equiv="X-UA-compatible"content="ie=edge">
+ <title>selector </title>
+ </head>
+ <style>   
+#contaner{   
+    background-color: black;
+    margin: 5px;
+    color: white;
+}
+div+p{  
+    color: blue;
+}
+
+
+</style>
+ <body>
+    <h3>   this is selector</h3>
+    <div id="contaner">  
+        
+<div   class="row">  
+    <ul>    
+<li>    <p>   this is ui line  </p></li>
+
+
+    </ul> 
+    <p>  this is first para</p>
+
+        <p>this is second para</p>
+</div>
+<p>  this is third para</p>
+    </div>
+<p>  this is fourth para</p>
+ </body>
+ </html>
+

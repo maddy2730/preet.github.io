@@ -1,0 +1,138 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+.logo-img{ 
+    height: 0px;
+    padding: 0px;
+}
+
+.logo-img img{ 
+    height:60px;
+
+}
+
+
+ a:hover{
+background: blueviolet;
+ }
+ #navbar ul{
+height: 60px;
+display: flex;
+flex-direction: row;
+background-color: black;
+font-size: 25px;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+text-align: center;
+cursor: pointer;
+padding: 10px;
+
+ } 
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    padding-left: 40px;
+}
+.src{
+  position: absolute;
+ right: 140px;
+ top:21px;
+ border-radius: 20px;
+ height:25px;
+ border:4px solid grey;
+ cursor: pointer;
+}
+.btn{ 
+    display:flex;
+    position:absolute;
+ right: 30px;
+top: 18px;
+ border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 6px;
+    width: 80px;
+    height: 30px;
+background-color:grey;
+}
+#introsection{
+height: 360px;
+background: center/cover no-repeat url("/static/7img.jpg");
+color: white;
+text-align: center;
+
+justify-content: center;
+
+}
+.int{ 
+    padding-top: 110px;
+    font-size: 40px;
+
+}
+.intr{
+    font-size: 20px;
+}
+
+
+
+#datasection{
+    height: 380px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(214, 208, 220);
+}
+#datasection h2{
+    display: flex;
+    position: absolute;
+    left: 800px;
+    margin-top: 10px;
+}
+.card-box{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{ 
+    height:150px;
+    padding: 0px;
+
+}
+.card-img img{ 
+    height:inherit;
+
+}
+ 
+.card{ 
+border-radius: 20px;
+    border: 2px solid  black;
+    margin: 60px;
+    height: 250px;
+    width: 350px;
+    display:inline-block;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left:10px;
+
+}
+#footer{
+background-color:black;
+    height:35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
